@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Reservation System - Auth</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Signup Form -->
+    <div id="signup-form" class="auth-form">
+        <h2>Sign Up</h2>
+        <form id="signup">
+            <input type="text" id="signup-firstname" class="auth-input" placeholder="First Name" required>
+            <input type="text" id="signup-lastname" class="auth-input" placeholder="Last Name" required>
+            <input type="email" id="signup-email" class="auth-input" placeholder="Email" required>
+            <input type="tel" id="signup-phone" class="auth-input" placeholder="Phone Number" required>
+            <input type="password" id="signup-password" class="auth-input" placeholder="Password" required>
+            <button type="submit" class="auth-button">Sign Up</button>
+        </form>
+    </div>
+
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-auth.js"></script>
+    <script src="auth.js"></script>
+</body>
+</html>
